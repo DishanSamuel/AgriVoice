@@ -44,15 +44,20 @@ In many rural regions, smartphones, internet access, and digital literacy are li
   Modular design makes it easy to expand into healthcare, education, local governance, and more.
 
 ---
+## 🧰 Technologies Used
 
-## 🛠️ Tech Stack (Suggested)
+  - ☁️ Twilio / Vonage / Exotel
+    Used for managing phone call flows — incoming calls, voice recording, and outbound responses.
 
-- **Telephony Integration**: Twilio, Plivo, or Asterisk
-- **Voice Transcription**: Whisper, Google Speech-to-Text, or Deepgram
-- **AI Engine**: OpenAI GPT-4, Mistral, or open-source LLMs
-- **Text-to-Speech**: ElevenLabs, Amazon Polly, or eSpeak
-- **Backend**: Python (Flask, FastAPI) or Node.js
-- **Deployment**: Docker, Heroku, or AWS Lambda
+  - 🎙️ Whisper / Google Speech-to-Text
+    Converts users’ spoken questions into text. These ASR (Automatic Speech Recognition) tools support multiple languages and accents.
+
+  - 🧠 OpenAI GPT / Custom LLMs
+    Powers the brain of the system. These large language models generate relevant, natural-language answers based on user queries.
+
+  - 🔊 Text-to-Speech (TTS)
+    Converts the AI's text response back into speech for the voice callback. Options include:
+    ElevenLabs (high quality, multilingual)
 
 ---
 
