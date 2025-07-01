@@ -58,9 +58,9 @@ In many rural regions, smartphones, internet access, and digital literacy are li
 
 ## 📦 Installation
 
-> **Note:** This is a simplified setup. Your actual implementation may require telecom service configuration.
+> **Note:** This is a simplified setup. Your actual implementation require you to setup your .env file with all the relevent API Keys in it
 
 ```bash
-git clone https://github.com/your-org/agrivoice.git
-cd agrivoice
-pip install -r requirements.txt
+https://github.com/DishanSamuel/AgriVoice.git
+cd AgriVoice
+npm run dev
